@@ -1,0 +1,175 @@
+/* SignUp.css */
+/* .signup-container {
+    position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+} */
+/* .signup-container::before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    width: 1536px;
+    height: 750;
+    background-color: #878787;
+z-index: -1;
+} */
+
+/* .signup-form {
+    width: 400px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    left: 120px;
+} */
+
+/* .signup-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+} */
+
+/* .form-group {
+    margin-bottom: 20px;
+} */
+
+/* .form-group label {
+    display: block;
+    margin-bottom: 5px;
+} */
+
+/* .form-group input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+} */
+
+/* .signup-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+} */
+
+/* .signup-button:hover {
+    background-color: #0056b3;
+} */
+
+/* p {
+    text-align: center;
+    position: relative;
+    top: 215px;
+    left: -212px;
+}/
+
+/* p a {
+    color: #007bff;
+    text-decoration: none;
+} */
+
+/* p a:hover {
+    text-decoration: underline;
+} */
+
+body {
+    overflow: hidden;
+}
+
+/* SignUp.css */
+.signup-container {
+    position: relative;
+    /* Ensure proper positioning for pseudo-element */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    width: 1863px;
+    top: -8px;
+    left: -335px;
+    background: linear-gradient(to right, #ea6666, #554ba2);
+}
+
+.signup-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* Dark grey background color */
+    z-index: -1;
+    /* Ensure the pseudo-element stays behind the content */
+}
+
+.signup-form {
+    width: 400px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: -175px;
+}
+
+.signup-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 360px;
+    /* Adjusted width in pixels */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.signup-button {
+    width: 381px;
+    /* Adjusted width in pixels */
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+.signup-button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    text-align: center;
+    position: relative;
+    top: 55px;
+    left: -325px;
+}
+
+p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
